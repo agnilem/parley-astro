@@ -1,0 +1,21 @@
+---
+import { group, type Logo } from '../../lib/content';
+const logos = await group<Logo>('logos');
+/** Workflow detail pages reuse the strip without its "Trusted by" label. */
+const { hideLabel = false } = Astro.props;
+---
+<section class="logos">
+  {!hideLabel && <p class="logos__label">Trusted by 200+ businesses</p>}
+  <ul class="logos__list" role="list">
+    {logos.map((logo) => (
+      <li class={`logo logo--${logo.slug}`}>
+        {logo.parts.map((p) => (
+          <span class={`logo__part logo__part--${p.kind}`} style={`--w:${p.w}px;--h:${p.h}px`}>
+            <img class="logo__d" src={p.d} alt="" />
+            <img class="logo__h" src={p.h2} alt="" />
+          </span>
+        ))}
+      </li>
+    ))}
+  </ul>
+</section>

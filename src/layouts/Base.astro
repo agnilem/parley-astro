@@ -1,0 +1,41 @@
+---
+import Head from './Head.astro';
+import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
+import Nav from '../components/sections/Nav.astro';
+import Footer from '../components/sections/Footer.astro';
+import Cta from '../components/sections/Cta.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  path: string;
+  ogImage?: string;
+  schema?: boolean;
+  /** Closing CTA panel. Framer shows it on every route except /404 and the
+   *  blog articles, which end on their own related-posts strip. */
+  cta?: boolean;
+}
+const { title, description, path, cta = true, ogImage, schema } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head><Head title={title} description={description} path={path} ogImage={ogImage} schema={schema} /></head>
+  <body>
+    <Nav />
+    <main class="page" data-page={path}>
+      <div class="container">
+        <slot />
+        {cta && <Cta />}
+      </div>
+      <Footer />
+    </main>
+    <script is:inline src="/assets/lottie.min.js"></script>
+    <script>
+      import '../scripts/entry.js';
+    </script>
+    {import.meta.env.PUBLIC_VERCEL_ANALYTICS && <Analytics />}
+    {import.meta.env.PUBLIC_VERCEL_ANALYTICS && <SpeedInsights />}
+  </body>
+</html>

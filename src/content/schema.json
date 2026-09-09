@@ -1,0 +1,59 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Parley",
+    "url": "https://parley-astro.vercel.app",
+    "logo": "https://parley-astro.vercel.app/assets/favicon.png",
+    "description": "Parley is an AI agent Framer template for SaaS startups, automation products, and agent-led workflow tools."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Parley AI Agent Framer Template",
+    "url": "https://parley-astro.vercel.app",
+    "description": "A polished Framer template for AI agent startups, SaaS teams, and automation products."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Parley - AI Agent Framer Template",
+    "brand": {
+      "@type": "Brand",
+      "name": "Parley"
+    },
+    "category": "Framer template",
+    "description": "A Framer website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
+    "url": "https://parley-astro.vercel.app"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Parley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Parley is a Framer website template for AI agent startups, SaaS teams, automation products, and workflow-focused software."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is the Parley template for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Parley is designed for founders, product teams, and agencies building websites for AI agents, automation platforms, and SaaS products."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What pages are included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The template includes homepage, blog, pricing, workflows, workflow detail pages, waitlist, contact, thank you, and legal pages."
+        }
+      }
+    ]
+  }
+]
