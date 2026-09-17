@@ -18,4 +18,20 @@ const { hideLabel = false } = Astro.props;
       </li>
     ))}
   </ul>
+  <!-- Below the desktop breakpoint Framer swaps the static row for a Ticker.
+       Three copies keep the loop seamless at every width up to 1200px. -->
+  <div class="logos__ticker" aria-hidden="true">
+    <div class="logos__track">
+      {[0, 1, 2].map(() => logos.map((logo) => (
+        <div class={`logo logos__cell logo--${logo.slug}`}>
+          {logo.parts.map((p) => (
+            <span class={`logo__part logo__part--${p.kind}`} style={`--w:${p.w}px;--h:${p.h}px`}>
+              <img class="logo__d" src={p.d} alt="" loading="lazy" />
+              <img class="logo__h" src={p.h2} alt="" loading="lazy" />
+            </span>
+          ))}
+        </div>
+      )))}
+    </div>
+  </div>
 </section>

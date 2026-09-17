@@ -1357,17 +1357,6 @@ h3.wdquote__value {
   /* Framer's phone hero: panel 100px from the top, 586 tall. */
   /* Framer's phone hero: panel 100px from the top, 586 tall. */
   .page .hero { --hero-top: 100px; --hero-rest-h: 586px; }
-  /* One clipped row of logos, left-aligned, rather than a wrapped grid. */
-  .page .logos__list {
-    flex-wrap: nowrap;
-    overflow: clip;
-    justify-content: flex-start;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    gap: 26px;
-  }
-  .page .logo { flex-shrink: 0; }
   .page .hero__img { width: 120.7%; height: 1050px; }
   /* The taller footer wordmark block adds 54px on every phone route. */
   .page .footer { margin-top: 46px; }

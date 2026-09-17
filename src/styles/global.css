@@ -438,6 +438,61 @@ img {
   opacity: 1;
 }
 
+/* Framer's tablet and phone strip is a Ticker: 156x58 cells, 10px gap,
+   50px/s, radial edge fade. One set is 5 x (156 + 10) = 830px, so a loop
+   takes 830 / 50 = 16.6s. */
+.logos__ticker {
+  display: none;
+}
+
+.logos__track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  height: 100%;
+  animation: logos-ticker 16.6s linear infinite;
+}
+
+.logos__cell {
+  flex: 0 0 156px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos__ticker:hover .logos__track {
+  animation-play-state: paused;
+}
+
+@keyframes logos-ticker {
+  to { transform: translateX(-830px); }
+}
+
+@media (max-width: 1200px) {
+  .logos__list {
+    display: none;
+  }
+
+  .logos__ticker {
+    display: block;
+    width: 100%;
+    height: 58px;
+    /* The cells are 58px tall; the static row they replace is 28px, so pull
+       30px back out of the flow and every page keeps its height. */
+    margin-block: -15px;
+    overflow: clip;
+    -webkit-mask-image: radial-gradient(48% 150% at 50% 50%, #000 0%, rgba(0, 0, 0, 0.8) 90.54%, transparent 100%);
+    mask-image: radial-gradient(48% 150% at 50% 50%, #000 0%, rgba(0, 0, 0, 0.8) 90.54%, transparent 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logos__track {
+    animation: none;
+  }
+}
+
 /* ============ WHY PARLEY (expanding cards) ============ */
 
 .why {
@@ -1114,13 +1169,6 @@ img {
 }
 
 @media (max-width: 810px) {
-  .logos__list {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 18px;
-    padding: 0 16px;
-  }
-
   .h2 {
     font-size: var(--h2-size);
   }
