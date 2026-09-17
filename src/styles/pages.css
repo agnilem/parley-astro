@@ -1454,3 +1454,13 @@ h3.wdquote__value {
   .page .wdquote__card { grid-template-columns: 1fr; gap: 20px; padding: 20px; }
   .page .wdquote__stat { border-left: 0; padding-left: 0; margin-left: 0; }
 }
+
+/* iOS Safari zooms any input under 16px on focus. */
+@media (max-width: 810px) {
+  .cform__input,
+  .wl__input {
+    font-size: 16px;
+  }
+}
+
+.ctable__table { font-variant-numeric: tabular-nums; }

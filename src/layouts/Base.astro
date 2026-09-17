@@ -23,8 +23,9 @@ const { title, description, path, cta = true, ogImage, schema } = Astro.props;
 <html lang="en">
   <head><Head title={title} description={description} path={path} ogImage={ogImage} schema={schema} /></head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <Nav />
-    <main class="page" data-page={path}>
+    <main id="main" class="page" data-page={path}>
       <div class="container">
         <slot />
         {cta && <Cta />}

@@ -19,10 +19,22 @@ export function init() {
     const btn = form.querySelector('[data-form-button]') ?? form.querySelector('[type="submit"]');
     if (!btn) continue;
 
+    // Screen readers hear what the button's visual states show.
+    const live = document.createElement('p');
+    live.className = 'visually-hidden';
+    live.setAttribute('aria-live', 'polite');
+    form.append(live);
+    const messages = {
+      loading: 'Sending…',
+      success: 'Sent. Thanks, we’ll be in touch.',
+      error: 'Something’s missing. Check the highlighted field and try again.',
+    };
+
     const set = (state) => {
       btn.classList.remove('is-default', 'is-loading', 'is-success', 'is-error', 'is-disabled');
       btn.classList.add('is-' + state);
       btn.setAttribute('aria-busy', String(state === 'loading'));
+      live.textContent = messages[state] ?? '';
     };
 
     const deliver = (endpoint) => {

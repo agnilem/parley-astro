@@ -13,6 +13,8 @@ Free, MIT licensed. Also available as a
 
 Live: [parley-astro.vercel.app](https://parley-astro.vercel.app)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagnilem%2Fparley-astro&project-name=parley&repository-name=parley&demo-title=Parley&demo-description=A%20warm%2C%20editorial%20AI%20agent%20and%20SaaS%20template%20built%20with%20Astro.&demo-url=https%3A%2F%2Fparley-astro.vercel.app&demo-image=https%3A%2F%2Fparley-astro.vercel.app%2Fassets%2Fog-image.jpg)
+
 ```sh
 npm install
 npm run dev        # localhost:4321
@@ -26,6 +28,14 @@ will swap them for their own.
 
 Parley is a template and demonstration brand. Connect your own forms,
 analytics and services before launch.
+
+## Deploy
+
+Click **Deploy with Vercel** above. It clones the repo to your GitHub account
+and deploys it with the Astro preset: no environment variables required.
+
+The two optional variables, `PUBLIC_FORM_ENDPOINT` and
+`PUBLIC_VERCEL_ANALYTICS`, can be added later in the project settings.
 
 ## Routes (22)
 

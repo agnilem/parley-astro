@@ -7,6 +7,8 @@ export function init(reduced) {
     originals.forEach((node) => {
       const clone = node.cloneNode(true);
       clone.setAttribute("aria-hidden", "true");
+      // Hidden from assistive tech, so its links must not take focus either.
+      clone.inert = true;
       // The duplicate exists only to close the loop; demote its headings so
       // the document outline matches the source, which has one set.
       clone.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((h) => {

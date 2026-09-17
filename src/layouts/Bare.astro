@@ -13,7 +13,10 @@ const { title, description, path, ogImage, schema } = Astro.props;
 <html lang="en">
   <head><Head title={title} description={description} path={path} ogImage={ogImage} schema={schema} /></head>
   <body>
-    <slot />
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main id="main">
+      <slot />
+    </main>
     <script>
       /* Only the form behaviour: this layout has no nav, hero or marquees. */
       import { init as forms } from '../scripts/forms.js';
