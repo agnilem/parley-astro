@@ -5,25 +5,25 @@
     "name": "Parley",
     "url": "https://parley-astro.vercel.app",
     "logo": "https://parley-astro.vercel.app/assets/favicon.png",
-    "description": "Parley is an AI agent Framer template for SaaS startups, automation products, and agent-led workflow tools."
+    "description": "Parley is an AI agent Astro template for SaaS startups, automation products, and agent-led workflow tools."
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Parley AI Agent Framer Template",
+    "name": "Parley AI Agent Astro Template",
     "url": "https://parley-astro.vercel.app",
-    "description": "A polished Framer template for AI agent startups, SaaS teams, and automation products."
+    "description": "A polished Astro template for AI agent startups, SaaS teams, and automation products."
   },
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Parley - AI Agent Framer Template",
+    "name": "Parley - AI Agent Astro Template",
     "brand": {
       "@type": "Brand",
       "name": "Parley"
     },
-    "category": "Framer template",
-    "description": "A Framer website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
+    "category": "Astro template",
+    "description": "An Astro website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
     "url": "https://parley-astro.vercel.app"
   },
   {
@@ -35,7 +35,7 @@
         "name": "What is Parley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Parley is a Framer website template for AI agent startups, SaaS teams, automation products, and workflow-focused software."
+          "text": "Parley is an Astro website template for AI agent startups, SaaS teams, automation products, and workflow-focused software."
         }
       },
       {
