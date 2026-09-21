@@ -8,8 +8,7 @@ reads like a real product rather than a side project. A warm, editorial
 aesthetic that stands apart from the sea of dark, neon AI sites, with the
 structure to turn visitors into trials.
 
-Free, MIT licensed. Also available as a
-[Framer template](https://www.framer.com/marketplace/templates/parley-agent/).
+Free, MIT licensed.
 
 Live: [parley-astro.vercel.app](https://parley-astro.vercel.app)
 
