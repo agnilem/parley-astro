@@ -897,18 +897,18 @@
       "icon": "mail",
       "title": "Email us directly",
       "desc": "For sales, partnerships, or anything sensitive. Goes to a small inbox - not a queue",
-      "value": "hello@parley.so"
+      "value": "hello@example.com"
     },
     {
       "icon": "press",
       "title": "Press & partnerships",
       "desc": "Coverage, integrations, co-marketing, or a story you think we should hear.",
-      "value": "press@parley.so"
+      "value": "press@example.com"
     },
     {
       "icon": "pin",
       "title": "San Francisco",
-      "desc": "548 Market Street, Suite 217 , San Francisco, CA 94104 United States",
+      "desc": "100 Example Street, Suite 200, San Francisco, CA, United States",
       "value": ""
     }
   ],
@@ -956,7 +956,7 @@
         },
         {
           "type": "li",
-          "text": "Keep your credentials secure. Tell us promptly at security@parley.so if you suspect unauthorized access."
+          "text": "Keep your credentials secure. Tell us promptly at security@example.com if you suspect unauthorized access."
         },
         {
           "type": "li",

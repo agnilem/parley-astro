@@ -1,16 +1,13 @@
 ---
 import FormButton from '../FormButton.astro';
 
-/** The Framer original posts to Framer's own form handler. This build posts
- *  to the template's demo relay, which answers the sender to say the form is
- *  not connected yet. A buyer points PUBLIC_FORM_ENDPOINT at their own
- *  endpoint, or empties it to keep submissions local. */
-const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT
-  ?? 'https://startfrom-gate.vercel.app/api/form-relay/parley';
+/** Set PUBLIC_FORM_ENDPOINT to your own handler. Without it, submissions
+ *  stay in the browser and the form shows its success state. */
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
 const fields = [
   { id: 'first-name', label: 'First name', type: 'text', placeholder: 'Sarah', autocomplete: 'given-name' },
-  { id: 'work-email', label: 'Work email', type: 'email', placeholder: 'sarah@company.com', autocomplete: 'email' },
-  { id: 'company', label: 'Company', type: 'text', placeholder: 'Notion Labs', autocomplete: 'organization' },
+  { id: 'work-email', label: 'Work email', type: 'email', placeholder: 'sarah@example.com', autocomplete: 'email' },
+  { id: 'company', label: 'Company', type: 'text', placeholder: 'Acme Inc.', autocomplete: 'organization' },
 ];
 ---
 <div class="cform">

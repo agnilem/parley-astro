@@ -85,11 +85,9 @@ Delete `public/admin/`.
 
 ## Forms
 
-The contact and waitlist forms post their fields as JSON to the template's
-demo relay, which does not forward to a person: it answers the sender once to
-say the form still points at the demo endpoint. Point it at your own handler
-with `PUBLIC_FORM_ENDPOINT`, or set it to an empty string to keep submissions
-in the browser.
+The contact and waitlist forms post their fields as JSON to
+`PUBLIC_FORM_ENDPOINT`. Leave it unset and submissions stay in the browser:
+the form shows its success state and nothing is sent.
 
 ```sh
 PUBLIC_FORM_ENDPOINT=https://your-handler.example.com npm run build

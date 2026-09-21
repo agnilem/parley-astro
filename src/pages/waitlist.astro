@@ -5,8 +5,7 @@ const avatars = [
   '/assets/waitlist-avatar-2.png',
   '/assets/waitlist-avatar-3.png',
 ];
-const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT
-  ?? 'https://startfrom-gate.vercel.app/api/form-relay/parley';
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
 ---
 <Bare
   title="AI Startup Waitlist Page Template | Parley"
@@ -34,7 +33,7 @@ const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT
           data-success-url="/thank-you"
         >
           <label class="visually-hidden" for="wl-email">Email address</label>
-          <input class="wl__input" id="wl-email" name="email" type="email" placeholder="name@email.com" autocomplete="email" required />
+          <input class="wl__input" id="wl-email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required />
           <button class="wl__submit" type="submit">Join waitlist</button>
         </form>
 
@@ -48,7 +47,7 @@ const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT
 
       <footer class="wl__footer">
         <p>© 2026 Parley. For AI agent template</p>
-        <p><a href="https://apollostudio.design" target="_blank" rel="noopener">Apollo Design Studio</a></p>
+        <p><a href="/terms-conditions">Terms&amp;Conditions</a></p>
       </footer>
     </div>
 

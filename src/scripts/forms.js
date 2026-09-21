@@ -3,13 +3,10 @@
  * Error).
  *
  * Where submissions go: a form carrying data-endpoint posts its fields there
- * as JSON. The default endpoint is the template's demo relay, which does not
- * forward anything to a person; it answers the sender once to say the form is
- * still pointing at the demo and how to connect their own. A buyer sets
- * PUBLIC_FORM_ENDPOINT to their own handler, or to an empty string to keep
- * submissions entirely local.
+ * as JSON. There is no default: set PUBLIC_FORM_ENDPOINT to your own handler,
+ * or leave it unset and submissions stay in the browser.
  *
- * The relay lives on another origin and sends no CORS headers, so the post
+ * The endpoint may live on another origin without CORS headers, so the post
  * goes out as a CORS-safelisted text/plain body in no-cors mode: the request
  * is delivered, the response is opaque. Nothing here depends on reading it,
  * and the Framer original reports success optimistically too.
@@ -39,8 +36,6 @@ export function init() {
 
     const deliver = (endpoint) => {
       const data = Object.fromEntries(new FormData(form).entries());
-      // Lets the relay tell a code-build submission apart from a Framer one.
-      data._source = 'parley-astro';
       return fetch(endpoint, {
         method: 'POST',
         mode: 'no-cors',
