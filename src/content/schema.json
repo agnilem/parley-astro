@@ -3,15 +3,15 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Parley",
-    "url": "https://parley-astro.vercel.app",
-    "logo": "https://parley-astro.vercel.app/assets/favicon.png",
+    "url": "https://parley.startfrom.co",
+    "logo": "https://parley.startfrom.co/assets/favicon.png",
     "description": "Parley is an AI agent Astro template for SaaS startups, automation products, and agent-led workflow tools."
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Parley AI Agent Astro Template",
-    "url": "https://parley-astro.vercel.app",
+    "url": "https://parley.startfrom.co",
     "description": "A polished Astro template for AI agent startups, SaaS teams, and automation products."
   },
   {
@@ -24,7 +24,7 @@
     },
     "category": "Astro template",
     "description": "An Astro website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
-    "url": "https://parley-astro.vercel.app"
+    "url": "https://parley.startfrom.co"
   },
   {
     "@context": "https://schema.org",

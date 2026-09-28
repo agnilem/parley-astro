@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   output: 'static',
-  site: 'https://parley-astro.vercel.app',
+  site: 'https://parley.startfrom.co',
   devToolbar: { enabled: false },
 });
