@@ -10,7 +10,7 @@ structure to turn visitors into trials.
 
 Free, MIT licensed.
 
-Live: [parley-astro.vercel.app](https://parley-astro.vercel.app)
+Live: [https://parley.startfrom.co/](https://parley.startfrom.co/)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagnilem%2Fparley-astro&project-name=parley&repository-name=parley&demo-title=Parley&demo-description=A%20warm%2C%20editorial%20AI%20agent%20and%20SaaS%20template%20built%20with%20Astro.&demo-url=https%3A%2F%2Fparley-astro.vercel.app&demo-image=https%3A%2F%2Fparley-astro.vercel.app%2Fassets%2Fog-image.jpg)
 
