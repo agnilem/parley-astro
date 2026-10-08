@@ -1,4 +1,4 @@
-# Parley — Astro
+# Parley: Astro and Next.js
 
 A modern AI agent template built on one idea: AI that works with you, not
 just for you.
@@ -10,7 +10,7 @@ structure to turn visitors into trials.
 
 Free, MIT licensed.
 
-Live: [https://parley.startfrom.co/](https://parley.startfrom.co/)
+Live: [parley.startfrom.co](https://parley.startfrom.co) (Astro), [parley-next.startfrom.co](https://parley-next.startfrom.co) (Next.js)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagnilem%2Fparley-astro&project-name=parley&repository-name=parley&demo-title=Parley&demo-description=A%20warm%2C%20editorial%20AI%20agent%20and%20SaaS%20template%20built%20with%20Astro.&demo-url=https%3A%2F%2Fparley-astro.vercel.app&demo-image=https%3A%2F%2Fparley-astro.vercel.app%2Fassets%2Fog-image.jpg)
 
@@ -21,6 +21,31 @@ npm run build      # static output in dist/
 ```
 
 Astro 7, `output: 'static'`, no CSS framework, no UI framework.
+
+<!-- repo-only -->
+## Next.js version
+
+The same site in Next.js 16 (App Router, React 19, static export) lives in
+`next/`, with its own README. It is generated from this Astro source by
+`tools/astro-to-next.mjs` (styles: `tools/collect-css.mjs`), and
+`tools/variantcmp.mjs` checks the two builds element by element at desktop,
+tablet and phone widths.
+
+```sh
+cd next
+npm install
+npm run dev        # localhost:3000
+npm run build      # static output in out/
+```
+
+To deploy it on Vercel, import the repo and set the Root Directory to `next`.
+Its environment variables are the Astro ones with a `NEXT_PUBLIC_` prefix.
+Changed the Astro source? Regenerate from the repo root (after `npm install`):
+
+```sh
+node tools/astro-to-next.mjs && node tools/collect-css.mjs
+```
+<!-- /repo-only -->
 
 The artwork and logos ship with it under the same licence, though most people
 will swap them for their own.
