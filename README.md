@@ -1,3 +1,22 @@
+<p align="center">
+  <a href="https://startfrom.co/templates/parley?utm_source=github&utm_medium=readme&utm_campaign=parley"><img alt="Parley: A warm, editorial AI agent and SaaS template for Astro and Next.js. Free and MIT licensed, by Startfrom." src="./.github/assets/cover.jpg" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
+  <img alt="Astro 7" src="https://img.shields.io/badge/Astro-7-111111?style=flat-square">
+  <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-111111?style=flat-square">
+  <img alt="Static output" src="https://img.shields.io/badge/output-static-111111?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://parley.startfrom.co"><b>Astro demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://parley-next.startfrom.co"><b>Next.js demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://startfrom.co/templates/parley?utm_source=github&utm_medium=readme&utm_campaign=parley"><b>Startfrom</b></a>
+</p>
+
 # Parley: Astro and Next.js
 
 A modern AI agent template built on one idea: AI that works with you, not
@@ -10,9 +29,7 @@ structure to turn visitors into trials.
 
 Free, MIT licensed.
 
-Live: [parley.startfrom.co](https://parley.startfrom.co) (Astro), [parley-next.startfrom.co](https://parley-next.startfrom.co) (Next.js)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagnilem%2Fparley-astro&project-name=parley&repository-name=parley&demo-title=Parley&demo-description=A%20warm%2C%20editorial%20AI%20agent%20and%20SaaS%20template%20built%20with%20Astro.&demo-url=https%3A%2F%2Fparley-astro.vercel.app&demo-image=https%3A%2F%2Fparley-astro.vercel.app%2Fassets%2Fog-image.jpg)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagnilem%2Fparley-astro&project-name=parley&repository-name=parley&demo-title=Parley&demo-description=A%20warm%2C%20editorial%20AI%20agent%20and%20SaaS%20template%20built%20with%20Astro.&demo-url=https%3A%2F%2Fparley.startfrom.co&demo-image=https%3A%2F%2Fparley.startfrom.co%2Fassets%2Fog-image.jpg)
 
 ```sh
 npm install
