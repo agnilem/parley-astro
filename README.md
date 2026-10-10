@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://startfrom.co/templates/parley?utm_source=github&utm_medium=readme&utm_campaign=parley"><img alt="Parley: A warm, editorial AI agent and SaaS template for Astro and Next.js. Free and MIT licensed, by Startfrom." src="./.github/assets/cover.jpg" width="100%"></a>
+  <a href="https://startfrom.co/?utm_source=github&utm_medium=readme&utm_campaign=parley"><img alt="Parley: A warm, editorial AI agent and SaaS template for Astro and Next.js. Free and MIT licensed, by Startfrom." src="./.github/assets/cover.jpg" width="100%"></a>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
   &nbsp;·&nbsp;
   <a href="https://parley-next.startfrom.co"><b>Next.js demo</b></a>
   &nbsp;·&nbsp;
-  <a href="https://startfrom.co/templates/parley?utm_source=github&utm_medium=readme&utm_campaign=parley"><b>Startfrom</b></a>
+  <a href="https://startfrom.co/?utm_source=github&utm_medium=readme&utm_campaign=parley"><b>Startfrom</b></a>
 </p>
 
 # Parley: Astro and Next.js
