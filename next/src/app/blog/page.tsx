@@ -6,8 +6,8 @@ export default function HomePage() {
   return (
     <>
       <Base
-        title="AI Agent Blog Template | Parley Astro Template"
-        description="Explore the CMS-powered blog included with the Parley AI agent Astro template, built for product updates, use cases, engineering posts, and agent design articles."
+        title="AI Agent Blog Template | Parley Next.js Template"
+        description="Explore the CMS-powered blog included with the Parley AI agent Next.js template, built for product updates, use cases, engineering posts, and agent design articles."
         path="/blog"
       >
         <header className="blog__header">

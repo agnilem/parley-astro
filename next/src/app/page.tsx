@@ -14,8 +14,8 @@ export default function HomePage() {
   return (
     <>
       <Base
-        title="Parley - AI Agent Astro Template for SaaS Startups"
-        description="Launch an AI agent or automation startup site with Parley, a polished Astro template with product sections, workflows, pricing, blog pages, and conversion-ready layouts."
+        title="Parley - AI Agent Next.js Template for SaaS Startups"
+        description="Launch an AI agent or automation startup site with Parley, a polished Next.js template with product sections, workflows, pricing, blog pages, and conversion-ready layouts."
         path="/"
       >
         <Hero />

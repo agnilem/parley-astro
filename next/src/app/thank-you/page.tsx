@@ -11,8 +11,8 @@ export default function ThankYouPage() {
   return (
     <>
       <Bare
-        title="Thank You Page Template | Parley AI Agent Astro Template"
-        description="A simple confirmation page for signups, demos, and waitlist flows in the Parley AI agent Astro template."
+        title="Thank You Page Template | Parley AI Agent Next.js Template"
+        description="A simple confirmation page for signups, demos, and waitlist flows in the Parley AI agent Next.js template."
         path="/thank-you"
         schema={false}
       >
@@ -43,7 +43,7 @@ export default function ThankYouPage() {
           </div>
 
           <div className="wl__right">
-            <img src="/assets/waitlist-app.png" alt="Parley AI agent Astro template interface preview" />
+            <img src="/assets/waitlist-app.png" alt="Parley AI agent Next.js template interface preview" />
           </div>
         </div>
       </Bare>

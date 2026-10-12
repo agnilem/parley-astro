@@ -7,7 +7,7 @@ export default function NotFound() {
     <>
       <Base
         title="Page Not Found | Parley"
-        description="The requested page could not be found on the Parley AI agent Astro template site."
+        description="The requested page could not be found on the Parley AI agent Next.js template site."
         path="/404"
         cta={false}
       >

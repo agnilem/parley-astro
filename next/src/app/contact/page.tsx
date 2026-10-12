@@ -10,7 +10,7 @@ export default function ContactPage() {
     <>
       <Base
         title="Contact Page Template for AI Startups | Parley"
-        description="A polished contact page layout for AI agent startups and SaaS products, included with the Parley Astro template."
+        description="A polished contact page layout for AI agent startups and SaaS products, included with the Parley Next.js template."
         path="/contact"
       >
         <PageHero afterTitle={<p className="ts-display phero__title2">about the work<br />nobody wants to do</p>}

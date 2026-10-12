@@ -13,7 +13,7 @@ export default function WaitlistPage() {
     <>
       <Bare
         title="AI Startup Waitlist Page Template | Parley"
-        description="A focused waitlist page for AI agents, SaaS launches, and automation products, included with the Parley Astro template."
+        description="A focused waitlist page for AI agents, SaaS launches, and automation products, included with the Parley Next.js template."
         path="/waitlist"
         schema={false}
       >
@@ -56,7 +56,7 @@ export default function WaitlistPage() {
           </div>
 
           <div className="wl__right">
-            <img src="/assets/waitlist-app.png" alt="Parley AI agent Astro template interface preview" />
+            <img src="/assets/waitlist-app.png" alt="Parley AI agent Next.js template interface preview" />
           </div>
         </div>
       </Bare>

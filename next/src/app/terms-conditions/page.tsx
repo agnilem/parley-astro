@@ -19,8 +19,8 @@ export default async function TermsConditionsPage() {
   return (
     <>
       <Base
-        title="Terms and Conditions | Parley Astro Template"
-        description="Terms and conditions page included with the Parley AI agent Astro template."
+        title="Terms and Conditions | Parley Next.js Template"
+        description="Terms and conditions page included with the Parley AI agent Next.js template."
         path="/terms-conditions"
         cta={false}
       >

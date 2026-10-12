@@ -13,7 +13,7 @@ export default async function WorkflowsPage() {
     <>
       <Base
         title="AI Agent Workflow Template Pages | Parley"
-        description="Showcase prebuilt AI agent workflows with Parley, an Astro template for automation products, SaaS startups, and agent-led service pages."
+        description="Showcase prebuilt AI agent workflows with Parley, a Next.js template for automation products, SaaS startups, and agent-led service pages."
         path="/workflows"
       >
         <PageHero

@@ -5,25 +5,25 @@
     "name": "Parley",
     "url": "https://parley.startfrom.co",
     "logo": "https://parley.startfrom.co/assets/favicon.png",
-    "description": "Parley is an AI agent Astro template for SaaS startups, automation products, and agent-led workflow tools."
+    "description": "Parley is an AI agent Next.js template for SaaS startups, automation products, and agent-led workflow tools."
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Parley AI Agent Astro Template",
+    "name": "Parley AI Agent Next.js Template",
     "url": "https://parley.startfrom.co",
-    "description": "A polished Astro template for AI agent startups, SaaS teams, and automation products."
+    "description": "A polished Next.js template for AI agent startups, SaaS teams, and automation products."
   },
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Parley - AI Agent Astro Template",
+    "name": "Parley - AI Agent Next.js Template",
     "brand": {
       "@type": "Brand",
       "name": "Parley"
     },
-    "category": "Astro template",
-    "description": "An Astro website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
+    "category": "Next.js template",
+    "description": "A Next.js website template for AI agent startups with pages for workflows, pricing, blog content, waitlists, and customer conversion.",
     "url": "https://parley.startfrom.co"
   },
   {
@@ -35,7 +35,7 @@
         "name": "What is Parley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Parley is an Astro website template for AI agent startups, SaaS teams, automation products, and workflow-focused software."
+          "text": "Parley is a Next.js website template for AI agent startups, SaaS teams, automation products, and workflow-focused software."
         }
       },
       {

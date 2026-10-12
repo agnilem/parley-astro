@@ -25,8 +25,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <Base
-        title={`${d.title} | Parley AI Agent Astro Template`}
-        description={`Read ${d.title} from the Parley AI agent Astro template blog, featuring practical articles for AI agents, automation workflows, product updates, and SaaS teams.`}
+        title={`${d.title} | Parley AI Agent Next.js Template`}
+        description={`Read ${d.title} from the Parley AI agent Next.js template blog, featuring practical articles for AI agents, automation workflows, product updates, and SaaS teams.`}
         path={`/blog/${post.id}`}
         ogImage={d.cover}
         cta={false}

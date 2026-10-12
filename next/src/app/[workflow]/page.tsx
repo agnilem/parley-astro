@@ -26,7 +26,7 @@ export default async function WorkflowPage({ params }: { params: Promise<{ workf
   const meta: Record<string, { title: string; desc: string }> = {
     'workflow-1': {
       title: 'Workflow Detail Page Template | Parley',
-      desc: 'A detailed workflow page for presenting AI agent use cases and automation flows in the Parley Astro template.',
+      desc: 'A detailed workflow page for presenting AI agent use cases and automation flows in the Parley Next.js template.',
     },
     'workflow-2': {
       title: 'AI Workflow Use Case Template | Parley',
@@ -34,7 +34,7 @@ export default async function WorkflowPage({ params }: { params: Promise<{ workf
     },
     'workflow-3': {
       title: 'Automation Workflow Page Template | Parley',
-      desc: 'A polished workflow page for AI automation products and agentic SaaS templates built with Astro.',
+      desc: 'A polished workflow page for AI automation products and agentic SaaS templates built with Next.js.',
     },
   };
   const m = meta[w.slug];

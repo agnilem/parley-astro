@@ -280,6 +280,21 @@ function convert(file) {
   return { rel, dest, out };
 }
 
+// Demo copy names its stack ("Astro template", "built with Astro"). The Next
+// build names Next.js in the same places: titles, descriptions, alt text, JSON-LD.
+const nextStack = (s) => s
+  .replace(/\b([Aa])n Astro (?=(?:website )?template)/g, '$1 Next.js ')
+  .replace(/\bAstro (?=(?:website )?[Tt]emplate)/g, 'Next.js ')
+  .replace(/\bbuilt with Astro\b/g, 'built with Next.js');
+const nextStackTree = (dir) => {
+  for (const f of walkDir(dir)) {
+    if (!/\.(json|md|mdx)$/.test(f)) continue;
+    const s = readFileSync(f, 'utf8');
+    const t = nextStack(s);
+    if (t !== s) writeFileSync(f, t);
+  }
+};
+
 // ---------------------------------------------------------------- run
 const files = walkDir(A).filter((f) => f.endsWith('.astro') && !HAND.has(relative(A, f).replace(/\\/g, '/')));
 for (const f of walkDir(join(A, 'pages'))) if (!f.endsWith('.astro') && !/(sitemap\.xml|robots\.txt)\.ts$/.test(f)) err(relative(A, f), 'endpoint without a Next counterpart');
@@ -290,7 +305,7 @@ for (const d of ['components', 'app', 'lib', 'scripts']) {
   for (const f of walkDir(dir)) if (readFileSync(f, 'utf8').startsWith('// GENERATED')) rmSync(f);
 }
 const results = files.map(convert);
-for (const { dest, out } of results) { mkdirSync(dirname(dest), { recursive: true }); writeFileSync(dest, out); }
+for (const { dest, out } of results) { mkdirSync(dirname(dest), { recursive: true }); writeFileSync(dest, nextStack(out)); }
 
 // Content and behaviour are shared verbatim.
 const copyTree = (from, to, filter = () => true) => {
@@ -310,6 +325,7 @@ for (const f of walkDir(join(A, 'scripts'))) {
 }
 rmSync(join(N, 'content'), { recursive: true, force: true });
 copyTree(join(A, 'content'), join(N, 'content'));
+nextStackTree(join(N, 'content'));
 // Plain TS helpers: the only Astro-specific line is the content import, which
 // points at the hand-written Next counterpart with the same API.
 for (const f of readdirSync(join(A, 'lib'))) {
