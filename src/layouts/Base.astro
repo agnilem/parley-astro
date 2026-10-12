@@ -1,5 +1,6 @@
 ---
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import StoreBadge from '../components/StoreBadge.astro';
 import Head from './Head.astro';
 import Analytics from '@vercel/analytics/astro';
 import SpeedInsights from '@vercel/speed-insights/astro';
@@ -39,6 +40,7 @@ const { title, description, path, cta = true, ogImage, schema } = Astro.props;
     </script>
     {import.meta.env.PUBLIC_VERCEL_ANALYTICS && <Analytics />}
     {import.meta.env.PUBLIC_VERCEL_ANALYTICS && <SpeedInsights />}
+    <StoreBadge />
     <GoogleAnalytics />
   </body>
 </html>
