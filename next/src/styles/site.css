@@ -4097,3 +4097,11 @@ img {
   animation-play-state: paused;
 }
 
+
+/* ---- components/StoreBadge.astro ---- */
+.store-badge {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+  }

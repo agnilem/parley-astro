@@ -1,4 +1,5 @@
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import StoreBadge from '@/components/StoreBadge';
 import Head from './Head';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -41,6 +42,7 @@ export default function Base({ title, description, path, cta = true, ogImage, sc
       <Scripts layout="base" />
       {analytics && <Analytics />}
       {analytics && <SpeedInsights />}
+      <StoreBadge />
       <GoogleAnalytics />
     </>
   );
