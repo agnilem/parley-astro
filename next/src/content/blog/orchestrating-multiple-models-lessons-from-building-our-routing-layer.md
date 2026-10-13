@@ -6,8 +6,9 @@ date: 2026-05-19
 author: "Emily Osei"
 authorRole: "Senior Technical Writer"
 authorOrg: "Parley"
-avatar: "/assets/author-emily.jpg"
-cover: "/assets/post-routing-layer.jpg"
+avatar: "/assets/author-emily.webp"
+cover: "/assets/post-routing-layer.webp"
+ogImage: "/assets/post-routing-layer.jpg"
 ---
 Modern AI systems rarely rely on a single model anymore. In production environments, the real constraint is not intelligence — it is efficiency: cost, latency, reliability, and predictability. This is why most serious systems evolve toward multi-model architectures.
 

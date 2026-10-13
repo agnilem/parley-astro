@@ -23,7 +23,7 @@ const rows = await group<IntegrationRow>('integrationRows');
         {[false, true].map((dup) => (
           <div class="int-marquee__set" aria-hidden={dup ? 'true' : undefined}>
             {row.tiles.map((t) => (
-              <span class="int-tile"><img src={t.src} alt={dup ? '' : t.alt} /></span>
+              <span class="int-tile"><img src={t.src} alt={dup ? '' : t.alt} loading="lazy" decoding="async" /></span>
             ))}
           </div>
         ))}

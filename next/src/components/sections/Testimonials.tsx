@@ -22,7 +22,7 @@ export default async function Testimonials() {
               <li className="tcard">
                 <p className="tcard__quote">{t.quote}</p>
                 <figure className="tcard__author">
-                  <img className="tcard__avatar" src={t.avatar} srcSet={t.srcset || undefined} alt="" />
+                  <img className="tcard__avatar" src={t.avatar} srcSet={t.srcset || undefined} alt="" loading="lazy" decoding="async" />
                   <figcaption>
                     <h5 className="tcard__name">{t.name}</h5>
                     <span className="tcard__role">{t.role}</span>

@@ -6,8 +6,9 @@ date: 2026-06-09
 author: "Ethan Caldwell"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-marcus.jpg"
-cover: "/assets/post-minimal-agent.jpg"
+avatar: "/assets/author-marcus.webp"
+cover: "/assets/post-minimal-agent.webp"
+ogImage: "/assets/post-minimal-agent.jpg"
 ---
 There's a temptation, when building AI agents, to give them everything. Every tool, every permission, every possible path to a solution. It feels responsible — like you're setting them up to succeed. In practice, it's how you set them up to fail in ways you can't predict.
 
@@ -33,7 +34,7 @@ When you define exactly what an agent does and doesn't do, you make a promise to
 
 Think of it like hiring a specialist versus a generalist for a critical task. The specialist doesn't need to be brilliant across every domain. They need to be deeply reliable within one.
 
-![](/assets/author-avatar-3.png)
+![](/assets/author-avatar-3.webp)
 
 #### Minimal vs. Maximal: A Direct Comparison
 

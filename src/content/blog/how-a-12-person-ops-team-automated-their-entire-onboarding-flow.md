@@ -6,8 +6,9 @@ date: 2026-03-21
 author: "Emily Osei"
 authorRole: "Senior Technical Writer"
 authorOrg: "Parley"
-avatar: "/assets/author-emily.jpg"
-cover: "/assets/post-onboarding.jpg"
+avatar: "/assets/author-emily.webp"
+cover: "/assets/post-onboarding.webp"
+ogImage: "/assets/post-onboarding.jpg"
 ---
 A 12-person operations team managed to fully automate their onboarding process using AI agents, but the transformation was not primarily a technological one — it was architectural.
 

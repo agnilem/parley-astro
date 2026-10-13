@@ -16,7 +16,7 @@ export default function BuildYourOwn() {
           <Button href="/contact" label="Start from scratch" variant="primary" />
         </div>
         <div className="byo__media">
-          <img src="/assets/wf-describe.png" alt="Support chat interface with user and agent conversation" loading="lazy" />
+          <img src="/assets/wf-describe.webp" alt="Support chat interface with user and agent conversation" loading="lazy" />
         </div>
       </section>
     </>

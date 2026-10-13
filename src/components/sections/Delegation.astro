@@ -51,7 +51,7 @@ const features = await group<Feature>('features');
           data-step={f.step}
           hidden={f.step !== 0}
         >
-          <img class="mock__img" src={f.mock} srcset={f.srcset} alt="" />
+          <img class="mock__img" src={f.mock} srcset={f.srcset} alt="" width={f.w} height={f.h} loading="lazy" decoding="async" />
         </div>
       ))}
     </div>

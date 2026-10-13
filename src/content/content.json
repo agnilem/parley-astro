@@ -93,32 +93,40 @@
     {
       "num": "01",
       "active": false,
-      "mosaic": "/assets/mosaic-a.png",
-      "image": "/assets/benefit-1.png",
+      "mosaic": "/assets/mosaic-a.webp",
+      "image": "/assets/benefit-1.webp",
+      "w": 772,
+      "h": 492,
       "title": "Always context-aware",
       "desc": "Parley remembers your preferences, priorities, and past decisions — so you never have to repeat yourself. It understands your work the way a long-time colleague would."
     },
     {
       "num": "02",
       "active": true,
-      "mosaic": "/assets/mosaic-d.png",
-      "image": "/assets/parleys-plan.png",
+      "mosaic": "/assets/mosaic-d.webp",
+      "image": "/assets/parleys-plan.webp",
+      "w": 772,
+      "h": 492,
       "title": "Takes real action",
       "desc": "Beyond suggestions, Parley executes — sending emails, booking meetings, updating records, and managing tasks across all your tools without constant hand-holding."
     },
     {
       "num": "03",
       "active": false,
-      "mosaic": "/assets/mosaic-b.png",
-      "image": "/assets/benefit-3.png",
+      "mosaic": "/assets/mosaic-b.webp",
+      "image": "/assets/benefit-3.webp",
+      "w": 772,
+      "h": 492,
       "title": "Connects everything",
       "desc": "Slack, Notion, HubSpot, GitHub — all in one place. Parley connects to 60+ tools. One conversation updates everything, no extra work."
     },
     {
       "num": "04",
       "active": false,
-      "mosaic": "/assets/mosaic-c.png",
-      "image": "/assets/benefit-4.png",
+      "mosaic": "/assets/mosaic-c.webp",
+      "image": "/assets/benefit-4.webp",
+      "w": 772,
+      "h": 492,
       "title": "Gets better over time",
       "desc": "The longer you work together, the less you explain. Parley learns your tone, shortcuts, and rules. Today’s prompts become tomorrow’s one-word commands."
     }
@@ -128,63 +136,71 @@
       "step": 0,
       "label": "Natural language commands",
       "desc": "Just speak naturally — \"prep my Monday morning\" or \"follow up with leads who haven't replied in 5 days.\"",
-      "mock": "/assets/mock-0.png",
-      "srcset": "/assets/mock-0.png 1x, /assets/mock-0@2x.png 2x"
+      "mock": "/assets/mock-0.webp",
+      "srcset": "/assets/mock-0.webp 1x, /assets/mock-0@2x.webp 2x",
+      "w": 1708,
+      "h": 1100
     },
     {
       "step": 1,
       "label": "Multi-step task execution",
       "desc": "From a single intent, Parley plans the full sequence, runs every step, and recovers when something breaks.",
-      "mock": "/assets/mock-2.png",
-      "srcset": "/assets/mock-2.png 1x, /assets/mock-2@2x.png 2x"
+      "mock": "/assets/mock-2.webp",
+      "srcset": "/assets/mock-2.webp 1x, /assets/mock-2@2x.webp 2x",
+      "w": 1708,
+      "h": 1100
     },
     {
       "step": 2,
       "label": "Human-in-the-loop control",
       "desc": "Stay in charge of high-stakes actions. Parley pauses for approval whenever the call should be yours.",
-      "mock": "/assets/mock-1.png",
-      "srcset": "/assets/mock-1.png 1x, /assets/mock-1@2x.png 2x"
+      "mock": "/assets/mock-1.webp",
+      "srcset": "/assets/mock-1.webp 1x, /assets/mock-1@2x.webp 2x",
+      "w": 1708,
+      "h": 1103
     },
     {
       "step": 3,
       "label": "Persistent user profile",
       "desc": "Knows your team, your tools, your customers, across every session, never starting from zero.",
-      "mock": "/assets/mock-3.png",
-      "srcset": "/assets/mock-3.png 1x, /assets/mock-3@2x.png 2x"
+      "mock": "/assets/mock-3.webp",
+      "srcset": "/assets/mock-3.webp 1x, /assets/mock-3@2x.webp 2x",
+      "w": 1708,
+      "h": 1100
     }
   ],
   "testimonials": [
     {
       "quote": "Parley does what every other AI tool promised but never delivered — it actually takes things off my plate. My inbox went from 200 unread to zero, daily.",
-      "avatar": "/assets/avatar-james.png",
-      "srcset": "/assets/avatar-james.png 1x, /assets/avatar-james@2x.png 2x",
+      "avatar": "/assets/avatar-james.webp",
+      "srcset": "/assets/avatar-james.webp 1x, /assets/avatar-james@2x.webp 2x",
       "name": "James R.",
       "role": "CEO, CloudPlex"
     },
     {
       "quote": "I was skeptical about 'AI partners' — but Parley learned my communication style in a week and now drafts emails I barely need to edit. Genuinely impressive.",
-      "avatar": "/assets/avatar-sophie.png",
-      "srcset": "/assets/avatar-sophie.png 1x, /assets/avatar-sophie@2x.png 2x",
+      "avatar": "/assets/avatar-sophie.webp",
+      "srcset": "/assets/avatar-sophie.webp 1x, /assets/avatar-sophie@2x.webp 2x",
       "name": "Sophie K.",
       "role": "VP Marketing, Tytotone"
     },
     {
       "quote": "The CRM follow-up workflow alone saved our sales team 12 hours a week. And the meeting notes are better than anything our team was writing manually.\"",
-      "avatar": "/assets/avatar-daniel.png",
-      "srcset": "/assets/avatar-daniel.png 1x, /assets/avatar-daniel@2x.png 2x",
+      "avatar": "/assets/avatar-daniel.webp",
+      "srcset": "/assets/avatar-daniel.webp 1x, /assets/avatar-daniel@2x.webp 2x",
       "name": "Daniel M.",
       "role": "Head of Sales, Bloopglow"
     },
     {
       "quote": "Parley is the first AI tool that actually reduces my workload. I stay on top of emails, clients, and meetings without the usual chaos",
-      "avatar": "/assets/avatar-paul.png",
+      "avatar": "/assets/avatar-paul.webp",
       "srcset": "",
       "name": "Paul M.",
       "role": "Operations Director, ZingZap"
     },
     {
       "quote": "Parley feels like the assistant I always needed. It keeps conversations organized, handles follow-ups, and saves me hours every week.”",
-      "avatar": "/assets/avatar-emily.png",
+      "avatar": "/assets/avatar-emily.webp",
       "srcset": "",
       "name": "Emily C.",
       "role": "Head of Client Success, Junotwig"
@@ -517,7 +533,7 @@
       "title": "Why Less Is More for Agents",
       "excerpt": "Agents that try to do everything fail unpredictably. A case for narrow scope and clear boundaries.",
       "dateLabel": "Jun 9, 2026",
-      "cover": "/assets/post-minimal-agent.jpg",
+      "cover": "/assets/post-minimal-agent.webp",
       "featured": true
     },
     {
@@ -526,7 +542,7 @@
       "title": "Building Real-Time Agent Memory",
       "excerpt": "The architecture behind Parley's persistent memory layer — tradeoffs, failures, and what we landed on.",
       "dateLabel": "May 28, 2026",
-      "cover": "/assets/post-agent-memory.jpg",
+      "cover": "/assets/post-agent-memory.webp",
       "side": true
     },
     {
@@ -535,7 +551,7 @@
       "title": "Lessons from Our Routing Layer",
       "excerpt": "Not all tasks belong to the same model. How we built a dispatcher that picks the right one.",
       "dateLabel": "May 19, 2026",
-      "cover": "/assets/post-routing-layer.jpg",
+      "cover": "/assets/post-routing-layer.webp",
       "side": true
     },
     {
@@ -544,7 +560,7 @@
       "title": "Why 2026 Is Different from Every AI Hype Cycle Before It",
       "excerpt": "What makes this moment structurally different — and why the skeptics are half-right.",
       "dateLabel": "May 7, 2026",
-      "cover": "/assets/post-agentic-shift.jpg",
+      "cover": "/assets/post-agentic-shift.webp",
       "side": true
     },
     {
@@ -552,42 +568,42 @@
       "category": "Use Cases",
       "title": "Managing Customer Requests with Parley",
       "dateLabel": "Apr 24, 2026",
-      "cover": "/assets/post-customer-requests.jpg"
+      "cover": "/assets/post-customer-requests.webp"
     },
     {
       "slug": "designing-for-failure-what-happens-when-your-agent-gets-it-wrong",
       "category": "Agent Design",
       "title": "When Your Agent Gets It Wrong",
       "dateLabel": "Apr 15, 2026",
-      "cover": "/assets/post-agent-wrong.jpg"
+      "cover": "/assets/post-agent-wrong.webp"
     },
     {
       "slug": "smarter-handoffs-enhancing-agent-to-human-escalation",
       "category": "Product Updates",
       "title": "Enhancing Agent-to-Human Escalation",
       "dateLabel": "Apr 2, 2026",
-      "cover": "/assets/post-escalation.jpg"
+      "cover": "/assets/post-escalation.webp"
     },
     {
       "slug": "how-a-12-person-ops-team-automated-their-entire-onboarding-flow",
       "category": "Use Cases",
       "title": "How a 12-Person Team Automated Onboarding",
       "dateLabel": "Mar 21, 2026",
-      "cover": "/assets/post-onboarding.jpg"
+      "cover": "/assets/post-onboarding.webp"
     },
     {
       "slug": "how-smaller-models-yield-better-results",
       "category": "Agent Design",
       "title": "How Smaller Models Yield Better Results",
       "dateLabel": "Mar 10, 2026",
-      "cover": "/assets/post-smaller-models.jpg"
+      "cover": "/assets/post-smaller-models.webp"
     },
     {
       "slug": "parley-2.0-meet-the-new-agent-builder",
       "category": "Product Updates",
       "title": "Parley 2.0: Meet the New Agent Builder",
       "dateLabel": "Feb 26, 2026",
-      "cover": "/assets/post-parley-2.jpg"
+      "cover": "/assets/post-parley-2.webp"
     }
   ],
   "relatedPosts": [
@@ -595,21 +611,21 @@
       "category": "Engineering",
       "title": "Lessons from Our Routing Layer",
       "dateLabel": "May 19, 2026",
-      "cover": "/assets/post-routing-layer.jpg",
+      "cover": "/assets/post-routing-layer.webp",
       "slug": "orchestrating-multiple-models-lessons-from-building-our-routing-layer"
     },
     {
       "category": "Engineering",
       "title": "Why We Replaced Webhooks",
       "dateLabel": "Nov 6, 2025",
-      "cover": "/assets/post-webhooks.jpg",
+      "cover": "/assets/post-webhooks.webp",
       "slug": null
     },
     {
       "category": "Engineering",
       "title": "Scaling Our Agent Pipeline",
       "dateLabel": "Oct 9, 2025",
-      "cover": "/assets/post-pipeline.jpg",
+      "cover": "/assets/post-pipeline.webp",
       "slug": null
     }
   ],
@@ -620,7 +636,7 @@
       "title": "Lead enrichment",
       "card": "Turn a name and email into a complete, ICP-scored profile — pulled from eight sources, written in your CRM voice, with reasoning attached to every field.",
       "lede": "Turn every new contact into a complete, ICP-scored profile — pulled from 4 sources, written in your CRM's voice, with reasoning attached to every field.",
-      "hero": "/assets/wf1-hero.png",
+      "hero": "/assets/wf1-hero.webp",
       "heroAlt": "Interface with integrations",
       "sectionTitle": "Built for the part of sales",
       "sectionTitleEm": "nobody wants to do.",
@@ -628,7 +644,7 @@
       "wide": {
         "title": "Written in your CRM's voice",
         "desc": "Learned from your team’s last 200 notes. No \"leveraging synergies.\" Variables stay variables.",
-        "image": "/assets/wf1-customers.png",
+        "image": "/assets/wf1-customers.webp",
         "alt": "List of customers"
       },
       "features": [
@@ -652,7 +668,7 @@
       "quote": "We're scoring 8,000 inbound leads a month now. The team only touches the top 12% — and they touch them six minutes after the form fill, not six hours.",
       "name": "James R.",
       "role": "CEO, CloudPlex",
-      "avatar": "/assets/avatar-james.png",
+      "avatar": "/assets/avatar-james.webp",
       "brand": "Cloudplex",
       "stat": "92%",
       "statLabel": "routing accuracy"
@@ -663,7 +679,7 @@
       "title": "Inbound triage",
       "card": "Score every form fill, route hot leads to the right AE in Slack within 90 seconds — with a one-line brief.",
       "lede": "The first 90 seconds of every new lead — classify intent, apply your routing rules, and put the right rep in the conversation.",
-      "hero": "/assets/wf2-hero.png",
+      "hero": "/assets/wf2-hero.webp",
       "heroAlt": "Interface of automation",
       "sectionTitle": "The first 90 seconds",
       "sectionTitleEm": "matter the most.",
@@ -671,7 +687,7 @@
       "wide": {
         "title": "Routing rules in plain English",
         "desc": "Territory, segment, round-robin, capacity — all editable on a Friday afternoon without breaking anyone’s quota",
-        "image": "/assets/wf2-prompt.png",
+        "image": "/assets/wf2-prompt.webp",
         "alt": "Promt on the black background"
       },
       "features": [
@@ -695,7 +711,7 @@
       "quote": "The routing rules are the part nobody believes until they see them. I changed our 'enterprise' threshold from 500 to 250 seats on a Friday afternoon without filing a ticket.",
       "name": "Sophie K.",
       "role": "VP Marketing, Tytotone",
-      "avatar": "/assets/avatar-sophie.png",
+      "avatar": "/assets/avatar-sophie.webp",
       "brand": "TYTOTONE",
       "stat": "3.4×",
       "statLabel": "more demos booked from inbound"
@@ -706,7 +722,7 @@
       "title": "Ticket triage",
       "card": "Read incoming tickets, label, prioritize, assign to the right queue — with reasoning attached for audit.",
       "lede": "Read every incoming ticket, classify it on four dimensions, draft a reply from your help center, and route only what your team should actually touch.",
-      "hero": "/assets/wf3-hero.png",
+      "hero": "/assets/wf3-hero.webp",
       "heroAlt": "Interface of automation for tickets",
       "sectionTitle": "Built for the queue",
       "sectionTitleEm": "that never empties.",
@@ -714,7 +730,7 @@
       "wide": {
         "title": "Drafted from your help center",
         "desc": "Reply written from your docs and past resolutions — every claim cites the doc it came from. No hallucinated knowledge base.",
-        "image": "/assets/wf3-draft.png",
+        "image": "/assets/wf3-draft.webp",
         "alt": "Draft of response of agent"
       },
       "features": [
@@ -738,7 +754,7 @@
       "quote": "Two-thirds of inbound now closes on the draft Parley wrote — because the answer is grounded in our actual docs, not a hallucination.",
       "name": "Paul M.",
       "role": "Operations Director, ZingZap",
-      "avatar": "/assets/avatar-paul.png",
+      "avatar": "/assets/avatar-paul.webp",
       "brand": "ZingZap",
       "stat": "62%",
       "statLabel": "tickets resolved on first reply"

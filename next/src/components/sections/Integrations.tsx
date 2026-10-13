@@ -27,7 +27,7 @@ export default async function Integrations() {
               {[false, true].map((dup) => (
                 <div className="int-marquee__set" aria-hidden={dup ? 'true' : undefined}>
                   {row.tiles.map((t) => (
-                    <span className="int-tile"><img src={t.src} alt={dup ? '' : t.alt} /></span>
+                    <span className="int-tile"><img src={t.src} alt={dup ? '' : t.alt} loading="lazy" decoding="async" /></span>
                   ))}
                 </div>
               ))}

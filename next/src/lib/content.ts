@@ -3,8 +3,8 @@ import { getEntry } from '@/lib/collections';
 
 export interface LogoPart { kind: string; w: number; h: number; d: string; h2: string }
 export interface Logo { slug: string; parts: LogoPart[] }
-export interface Benefit { num: string; active: boolean; mosaic: string; image: string; title: string; desc: string }
-export interface Feature { step: number; label: string; desc: string; mock: string; srcset: string }
+export interface Benefit { num: string; active: boolean; mosaic: string; image: string; w: number; h: number; title: string; desc: string }
+export interface Feature { step: number; label: string; desc: string; mock: string; srcset: string; w: number; h: number }
 export interface Testimonial { quote: string; avatar: string; srcset: string; name: string; role: string }
 export interface PlanFeature { text: string; off: boolean }
 export interface Plan {

@@ -38,7 +38,6 @@ export default function Base({ title, description, path, cta = true, ogImage, sc
         </div>
         <Footer />
       </main>
-      <script src="/assets/lottie.min.js"></script>
       <Scripts layout="base" />
       {analytics && <Analytics />}
       {analytics && <SpeedInsights />}

@@ -10,7 +10,7 @@ export default async function Nav() {
       <header className="nav-bar" data-nav="">
         <nav className="nav" aria-label="Main">
           <a href="/" className="nav__brand" aria-label="Parley">
-            <img src="/assets/parley-logo.png" alt="Parley" width="78" height="26" />
+            <img src="/assets/parley-logo.webp" alt="Parley" width="78" height="26" />
           </a>
 
           <button className="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu" data-nav-toggle="">

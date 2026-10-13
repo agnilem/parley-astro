@@ -18,7 +18,7 @@ const testimonials = await group<Testimonial>('testimonials');
         <li class="tcard">
           <p class="tcard__quote">{t.quote}</p>
           <figure class="tcard__author">
-            <img class="tcard__avatar" src={t.avatar} srcset={t.srcset || undefined} alt="" />
+            <img class="tcard__avatar" src={t.avatar} srcset={t.srcset || undefined} alt="" loading="lazy" decoding="async" />
             <figcaption>
               <h5 class="tcard__name">{t.name}</h5>
               <span class="tcard__role">{t.role}</span>

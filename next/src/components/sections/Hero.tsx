@@ -2,11 +2,13 @@
 import Button from '@/components/Button';
 
 export default function Hero() {
+  const heroSet = '/assets/hero-800.webp 800w, /assets/hero-1100.webp 1100w, /assets/hero-1600.webp 1600w, /assets/hero.webp 2326w';
+
   return (
     <>
       <section className="hero" id="hero">
         <div className="hero__panel" id="hero-media">
-          <img className="hero__img" src="/assets/hero.jpg" alt="" />
+          <img className="hero__img" src="/assets/hero.webp" srcSet={heroSet} sizes="(max-width: 1200px) 148vw, 123vw" alt="" width="2326" height="1200" fetchPriority="high" />
           <div className="hero__overlay"></div>
           <div className="hero__content">
             <h1 className="hero__headline">

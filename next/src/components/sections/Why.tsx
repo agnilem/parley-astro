@@ -28,7 +28,7 @@ export default async function Why() {
                 <p className="wcard__title-closed">{b.title}</p>
               </div>
               <div className="wcard__open">
-                <div className="wcard__img"><img src={b.image} alt="" loading="lazy" /></div>
+                <div className="wcard__img"><img src={b.image} alt="" width={b.w} height={b.h} loading="lazy" decoding="async" /></div>
                 <div className="wcard__content">
                   <h3 className="wcard__title">{b.title}</h3>
                   <p className="wcard__desc">{b.desc}</p>

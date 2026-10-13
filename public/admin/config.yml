@@ -33,4 +33,5 @@ collections:
       - { name: authorOrg, label: Author org, widget: string, default: Parley }
       - { name: avatar, label: Author avatar, widget: image }
       - { name: cover, label: Cover image, widget: image }
+      - { name: ogImage, label: Social card image (JPG or PNG), widget: image, required: false }
       - { name: body, label: Body, widget: markdown }

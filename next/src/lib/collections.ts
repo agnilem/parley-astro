@@ -30,6 +30,8 @@ export interface BlogData {
   authorOrg: string;
   avatar: string;
   cover: string;
+  /** Social card image; falls back to the cover. */
+  ogImage?: string;
 }
 export interface BlogEntry { id: string; data: BlogData; body: string }
 export interface ContentEntry { id: string; data: { items: unknown[] } }

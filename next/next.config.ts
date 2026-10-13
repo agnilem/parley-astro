@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   output: 'export', // fully static, same as the Astro build
   trailingSlash: false,
   images: { unoptimized: true },
+  // One small stylesheet: put it inside the page instead of a render-blocking request.
+  experimental: { inlineCss: true },
 };
 
 export default nextConfig;

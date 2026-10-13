@@ -17,7 +17,7 @@ const d = post.data;
   title={`${d.title} | Parley AI Agent Astro Template`}
   description={`Read ${d.title} from the Parley AI agent Astro template blog, featuring practical articles for AI agents, automation workflows, product updates, and SaaS teams.`}
   path={`/blog/${post.id}`}
-  ogImage={d.cover}
+  ogImage={d.ogImage ?? d.cover}
   cta={false}
 >
   <article class="article">

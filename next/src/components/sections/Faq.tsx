@@ -13,7 +13,7 @@ export default async function Faq() {
           <h2 className="h2">Questions<br />answered.</h2>
           <p className="faq__sub">Still curious?</p>
           <Button href="/contact" label="Chat with us" variant="primary" />
-          <img className="faq__mosaic" src="/assets/faq-mosaic.png" alt="" loading="lazy" />
+          <img className="faq__mosaic" src="/assets/faq-mosaic.webp" alt="" width="1062" height="250" loading="lazy" decoding="async" />
         </div>
 
         <div className="faq__list">

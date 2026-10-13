@@ -6,8 +6,9 @@ date: 2026-05-18
 author: "Ethan Caldwell"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-ethan.jpg"
-cover: "/assets/post-parley-2.jpg"
+avatar: "/assets/author-ethan.webp"
+cover: "/assets/post-parley-2.webp"
+ogImage: "/assets/post-parley-2.jpg"
 ---
 The latest release introduces a more structured approach to building and managing agent workflows. While earlier versions focused on enabling quick setup of basic AI-driven processes, the system now supports more complex, production-oriented behavior patterns.
 

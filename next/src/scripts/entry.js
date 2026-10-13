@@ -14,8 +14,10 @@ import { init as faq } from './faq.js';
 import { init as forms } from './forms.js';
 import { init as loadMore } from './load-more.js';
 import { init as compareTable } from './compare-table.js';
+import { init as lazyMedia } from './lazy-media.js';
 
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+lazyMedia();
 nav(reduced);
 mobileNav(reduced);
 hero(reduced);

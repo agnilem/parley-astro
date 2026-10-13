@@ -6,8 +6,9 @@ date: 2026-05-28
 author: "Emily Osei"
 authorRole: "Senior Technical Writer"
 authorOrg: "Parley"
-avatar: "/assets/author-emily.jpg"
-cover: "/assets/post-agent-memory.jpg"
+avatar: "/assets/author-emily.webp"
+cover: "/assets/post-agent-memory.webp"
+ogImage: "/assets/post-agent-memory.jpg"
 ---
 Agent memory is often misunderstood as a storage problem. In reality, it is an attention problem: what should the system choose to remember, and when should it retrieve that information?
 

@@ -23,8 +23,8 @@
   --error: rgb(251, 56, 88);
 
   /* ---- Typefaces ------------------------------------------------- */
-  --font-display: "DM Sans", system-ui, sans-serif;
-  --font-ui: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "DM Sans Variable", "DM Sans", system-ui, sans-serif;
+  --font-ui: "Geist Variable", "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* ---- Text styles ----------------------------------------------
      Desktop values. The two media blocks below carry the project's
@@ -3510,7 +3510,7 @@ img {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: url("/assets/tcard-cloud.jpg") center / cover no-repeat;
+  background: url("/assets/tcard-cloud.webp") center / cover no-repeat;
   opacity: 0;
   transition: opacity var(--d-spring) var(--e-tween-out);
   pointer-events: none;
@@ -3681,7 +3681,7 @@ img {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: url("/assets/pro-cloud.png") center / cover no-repeat;
+  background: url("/assets/pro-cloud.webp") center / cover no-repeat;
   opacity: 0;
   transition: opacity var(--d-spring) var(--e-tween-out);
   pointer-events: none;
@@ -3793,12 +3793,20 @@ img {
 
 /* ---------- Sections/Tab+images (uHCAWDn2h) ---------- */
 
+/* The two painted backgrounds below the first screen (this panel's canyon and
+   the plan cards' cloud) wait until lazy-media.js marks their element as near
+   the viewport. Without scripting they load with the page. */
+@media (scripting: enabled) {
+  .hiw__panel:not(.is-near) { background-image: none; }
+  .plans:not(.is-near) .plan::before { background-image: none; }
+}
+
 .hiw__panel {
   position: relative;
   width: 100%;
   border-radius: 24px;
   overflow: hidden;
-  background: url("/assets/canyon.png") center / cover no-repeat;
+  background: url("/assets/canyon.webp") center / cover no-repeat;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;

@@ -6,8 +6,9 @@ date: 2026-05-18
 author: "Ethan Caldwell"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-ethan.jpg"
-cover: "/assets/post-agent-wrong.jpg"
+avatar: "/assets/author-ethan.webp"
+cover: "/assets/post-agent-wrong.webp"
+ogImage: "/assets/post-agent-wrong.jpg"
 ---
 Failure in agent systems is not an edge case — it is a core design constraint. Unlike traditional software, where errors are often deterministic and predictable, agent failures are probabilistic and emergent.
 

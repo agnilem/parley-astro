@@ -6,8 +6,9 @@ date: 2026-04-24
 author: "Maya Thornton"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-maya.jpg"
-cover: "/assets/post-customer-requests.jpg"
+avatar: "/assets/author-maya.webp"
+cover: "/assets/post-customer-requests.webp"
+ogImage: "/assets/post-customer-requests.jpg"
 ---
 Modern organizations increasingly deal with a constant stream of incoming requests: messages, forms, tickets, and internal tasks. Traditionally, these inputs are handled through manual triage — someone reads the request, decides what it means, and forwards it to the right place.
 

@@ -23,7 +23,7 @@ export default async function WorkflowsPage() {
         >Prebuilt agent<br />workflows</PageHero>
 
         <div className="wfhero">
-          <img src="/assets/wf-hero.png" alt="User interface for creating a task" />
+          <img src="/assets/wf-hero.webp" alt="User interface for creating a task" />
         </div>
 
         <WorkflowGrid />

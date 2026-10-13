@@ -6,8 +6,9 @@ date: 2026-05-07
 author: "Ethan Caldwell"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-marcus.jpg"
-cover: "/assets/post-agentic-shift.jpg"
+avatar: "/assets/author-marcus.webp"
+cover: "/assets/post-agentic-shift.webp"
+ogImage: "/assets/post-agentic-shift.jpg"
 ---
 AI hype cycles have repeated a familiar pattern for decades: increased model capability leads to inflated expectations, followed by disappointment when systems fail to generalize in real workflows.
 

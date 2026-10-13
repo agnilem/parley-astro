@@ -3,9 +3,9 @@ import Bare from '@/layouts/Bare';
 
 export default function WaitlistPage() {
   const avatars = [
-    '/assets/waitlist-avatar-1.png',
-    '/assets/waitlist-avatar-2.png',
-    '/assets/waitlist-avatar-3.png',
+    '/assets/waitlist-avatar-1.webp',
+    '/assets/waitlist-avatar-2.webp',
+    '/assets/waitlist-avatar-3.webp',
   ];
   const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? '';
 
@@ -20,7 +20,7 @@ export default function WaitlistPage() {
         <div className="wl">
           <div className="wl__left">
             <a className="wl__brand" href="/" aria-label="Parley">
-              <img src="/assets/parley-logo.png" alt="Parley" width="78" height="26" />
+              <img src="/assets/parley-logo.webp" alt="Parley" width="78" height="26" />
             </a>
 
             <div className="wl__main">
@@ -56,7 +56,7 @@ export default function WaitlistPage() {
           </div>
 
           <div className="wl__right">
-            <img src="/assets/waitlist-app.png" alt="Parley AI agent Next.js template interface preview" />
+            <img src="/assets/waitlist-app.webp" alt="Parley AI agent Next.js template interface preview" />
           </div>
         </div>
       </Bare>

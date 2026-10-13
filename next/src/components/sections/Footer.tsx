@@ -9,7 +9,7 @@ export default async function Footer() {
       <footer className="footer" id="footer">
         <div className="footer__inner">
           <div className="footer__top">
-            <img className="footer__logo" src="/assets/parley-logo.png" alt="Parley" width="78" height="26" />
+            <img className="footer__logo" src="/assets/parley-logo.webp" alt="Parley" width="78" height="26" />
             <div className="footer__social">
               <span className="footer__social-label">Social media</span>
               <div className="footer__social-btns">
@@ -42,8 +42,8 @@ export default async function Footer() {
           </div>
 
           <div className="footer__mark">
-            <img className="footer__watermark" src="/assets/watermark.png" alt="" loading="lazy" />
-            <img className="footer__mosaic" src="/assets/footer-mosaic.png" alt="" loading="lazy" />
+            <img className="footer__watermark" src="/assets/watermark.webp" alt="" loading="lazy" />
+            <img className="footer__mosaic" src="/assets/footer-mosaic.webp" alt="" width="1248" height="196" loading="lazy" decoding="async" />
 
           <div className="footer__bottom">
             <p>© 2026 Parley. All rights reserved.</p>

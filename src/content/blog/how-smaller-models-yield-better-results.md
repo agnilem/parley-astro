@@ -6,8 +6,9 @@ date: 2026-05-18
 author: "Ethan Caldwell"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-ethan.jpg"
-cover: "/assets/post-smaller-models.jpg"
+avatar: "/assets/author-ethan.webp"
+cover: "/assets/post-smaller-models.webp"
+ogImage: "/assets/post-smaller-models.jpg"
 ---
 There is a persistent assumption in AI development that larger models inherently produce better results. While this is often true in benchmark settings, it breaks down in real-world systems.
 

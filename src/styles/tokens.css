@@ -21,8 +21,8 @@
   --error: rgb(251, 56, 88);
 
   /* ---- Typefaces ------------------------------------------------- */
-  --font-display: "DM Sans", system-ui, sans-serif;
-  --font-ui: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "DM Sans Variable", "DM Sans", system-ui, sans-serif;
+  --font-ui: "Geist Variable", "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* ---- Text styles ----------------------------------------------
      Desktop values. The two media blocks below carry the project's

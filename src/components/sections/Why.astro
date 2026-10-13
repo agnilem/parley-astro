@@ -24,7 +24,7 @@ const benefits = await group<Benefit>('benefits');
           <p class="wcard__title-closed">{b.title}</p>
         </div>
         <div class="wcard__open">
-          <div class="wcard__img"><img src={b.image} alt="" loading="lazy" /></div>
+          <div class="wcard__img"><img src={b.image} alt="" width={b.w} height={b.h} loading="lazy" decoding="async" /></div>
           <div class="wcard__content">
             <h3 class="wcard__title">{b.title}</h3>
             <p class="wcard__desc">{b.desc}</p>

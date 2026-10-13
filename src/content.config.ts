@@ -30,6 +30,8 @@ const blog = defineCollection({
     authorOrg: z.string(),
     avatar: z.string(),
     cover: z.string(),
+    /* Social card image; link previews want JPG or PNG. Falls back to the cover. */
+    ogImage: z.string().optional(),
   }),
 });
 

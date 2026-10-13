@@ -54,7 +54,7 @@ export default async function Delegation() {
                 data-step={f.step}
                 hidden={f.step !== 0}
               >
-                <img className="mock__img" src={f.mock} srcSet={f.srcset} alt="" />
+                <img className="mock__img" src={f.mock} srcSet={f.srcset} alt="" width={f.w} height={f.h} loading="lazy" decoding="async" />
               </div>
             ))}
           </div>

@@ -12,7 +12,7 @@ export default function NotFound() {
         cta={false}
       >
         <section className="nf">
-          <img className="nf__mosaic" src="/assets/404-mosaic.png" alt="" />
+          <img className="nf__mosaic" src="/assets/404-mosaic.webp" alt="" loading="lazy" />
           <p className="nf__code" aria-hidden="true">404</p>
           <h1 className="nf__title">Oops! The page you’re looking for can’t be found.</h1>
           <Button href="/" label="Go to Home page" variant="primary" />

@@ -47,7 +47,7 @@ export default function FeaturedComparison() {
           </div>
         </div>
 
-        <img className="fcomp__mosaic" src="/assets/wf-mosaic.png" alt="" loading="lazy" />
+        <img className="fcomp__mosaic" src="/assets/wf-mosaic.webp" alt="" loading="lazy" />
       </section>
     </>
   );

@@ -6,8 +6,9 @@ date: 2026-04-02
 author: "Maya Thornton"
 authorRole: "Content Strategist"
 authorOrg: "Parley"
-avatar: "/assets/author-maya.jpg"
-cover: "/assets/post-escalation.jpg"
+avatar: "/assets/author-maya.webp"
+cover: "/assets/post-escalation.webp"
+ogImage: "/assets/post-escalation.jpg"
 ---
 In most AI systems, escalation is treated as a failure state. When the system cannot complete a task, it simply transfers the user to a human.
 

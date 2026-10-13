@@ -53,7 +53,7 @@ export default async function WorkflowPage({ params }: { params: Promise<{ workf
             <p className="wdhero__by">
               Created by
               <span className="wdhero__chip">
-                <img src="/assets/parley-logo.png" alt="" width="52" height="17" />
+                <img src="/assets/parley-logo.webp" alt="" width="52" height="17" />
               </span>
               Parley Team
             </p>

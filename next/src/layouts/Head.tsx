@@ -3,7 +3,7 @@ import schema from '@/content/schema.json';
 /**
  * Hand-written counterpart of src/layouts/Head.astro: same props, same tags.
  * React hoists <title>, <meta> and <link> into <head>; Next adds the charset
- * and viewport meta itself, and the font links live in app/layout.tsx.
+ * and viewport meta itself, and the fonts are imported in app/layout.tsx.
  * The JSON-LD payload points at this deployment, as Astro's points at its own.
  */
 export const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://parley-next.startfrom.co';

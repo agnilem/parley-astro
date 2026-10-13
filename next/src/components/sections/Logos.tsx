@@ -14,8 +14,8 @@ export default async function Logos({ hideLabel = false }) {
             <li className={`logo logo--${logo.slug}`}>
               {logo.parts.map((p) => (
                 <span className={`logo__part logo__part--${p.kind}`} style={sx(`--w:${p.w}px;--h:${p.h}px`)}>
-                  <img className="logo__d" src={p.d} alt="" />
-                  <img className="logo__h" src={p.h2} alt="" />
+                  <img className="logo__d" src={p.d} alt="" loading="lazy" />
+                  <img className="logo__h" src={p.h2} alt="" loading="lazy" />
                 </span>
               ))}
             </li>

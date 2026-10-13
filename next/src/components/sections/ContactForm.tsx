@@ -12,7 +12,7 @@ export default function ContactForm() {
   return (
     <>
       <div className="cform">
-        <img className="cform__bg" src="/assets/contact-clouds.png" alt="" loading="lazy" />
+        <img className="cform__bg" src="/assets/contact-clouds.webp" alt="" loading="lazy" />
         <form
           className="cform__panel"
           method="post"

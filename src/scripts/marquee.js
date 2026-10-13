@@ -5,7 +5,10 @@ export function init(reduced) {
   if (track) {
     const originals = Array.from(track.children);
     originals.forEach((node) => {
-      const clone = node.cloneNode(true);
+      // Parsed straight into the track rather than cloned: a detached clone
+      // would fetch its lazy avatar at once.
+      track.insertAdjacentHTML("beforeend", node.outerHTML);
+      const clone = track.lastElementChild;
       clone.setAttribute("aria-hidden", "true");
       // Hidden from assistive tech, so its links must not take focus either.
       clone.inert = true;
@@ -17,7 +20,6 @@ export function init(reduced) {
         span.innerHTML = h.innerHTML;
         h.replaceWith(span);
       });
-      track.appendChild(clone);
     });
   }
 }
